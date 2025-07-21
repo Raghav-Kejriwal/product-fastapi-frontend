@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://product-fastapi-d6m7.onrender.com:8000",
+  baseURL: "https://product-fastapi-d6m7.onrender.com/",
 });
 
 export const getProducts = () => API.get("/products");
